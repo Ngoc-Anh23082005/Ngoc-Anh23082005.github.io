@@ -53,3 +53,10 @@ nav h2 {
 nav a {
   font-size: 14px;
 }
+nav {
+  height: 50px;       /* ép chiều cao */
+}
+
+nav h2 {
+  line-height: 50px;
+}
