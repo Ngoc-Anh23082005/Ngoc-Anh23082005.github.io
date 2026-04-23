@@ -2,14 +2,75 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
-<title>Portfolio - Ngọc Ánh</title>
-<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - Ayla Pham</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    background: #000; /* màu đen */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 18px; /* nhỏ lại */
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 14px; /* nhỏ lại */
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+.hero img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 18px;
+    color: #555;
+}
+
+/* SECTION */
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+</style>
+
 </head>
 
 <body>
 
 <nav>
-  <h2>Ngọc Ánh</h2>
+  <h2>Ayla Pham</h2>
   <div>
     <a href="index.html">Home</a>
     <a href="projects.html">Projects</a>
@@ -18,17 +79,29 @@
   </div>
 </nav>
 
-<section class="hero">
+<div class="hero">
   <img src="avatar.jpg">
-  <h1>PHẠM THỊ NGỌC ÁNH</h1>
-  <p>QA Tester / Fresher</p>
-</section>
+  <div class="name">PHẠM THỊ NGỌC ÁNH</div>
+  <div class="title">QA Tester</div>
+</div>
 
 <section>
   <h2>Giới thiệu</h2>
   <p>
-    Tôi là sinh viên CNTT, định hướng trở thành QA Tester. 
-    Mong muốn phát triển kỹ năng Manual & Automation Testing.
+    Tôi là sinh viên ngành Công nghệ Thông tin với định hướng trở thành QA Tester chuyên nghiệp. 
+    Tôi có nền tảng về kiểm thử phần mềm bao gồm viết test case, test plan và thực hiện kiểm thử 
+    chức năng cho các ứng dụng web và mobile.
+  </p>
+
+  <p>
+    Tôi đặc biệt quan tâm đến việc đảm bảo chất lượng sản phẩm thông qua việc phát hiện lỗi, 
+    phân tích hành vi người dùng và cải thiện trải nghiệm hệ thống. Ngoài Manual Testing, 
+    tôi đang từng bước học và áp dụng Automation Testing với Selenium để nâng cao hiệu quả kiểm thử.
+  </p>
+
+  <p>
+    Mục tiêu của tôi là phát triển kỹ năng kiểm thử toàn diện, làm việc trong môi trường chuyên nghiệp 
+    và đóng góp vào việc xây dựng các sản phẩm phần mềm chất lượng cao.
   </p>
 </section>
 
