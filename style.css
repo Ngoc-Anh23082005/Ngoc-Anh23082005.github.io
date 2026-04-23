@@ -1,41 +1,9 @@
 body {
-  font-family: Arial;
   margin: 0;
+  font-family: Arial;
 }
 
-nav {
-  background: #333;
-  color: white;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav a {
-  color: white;
-  margin-left: 15px;
-  text-decoration: none;
-}
-
-.hero {
-  text-align: center;
-  padding: 40px;
-}
-
-.hero img {
-  width: 150px;
-  border-radius: 50%;
-}
-
-section {
-  padding: 20px;
-}
-
-.card {
-  border: 1px solid #ccc;
-  padding: 15px;
-  margin: 10px;
-}
+/* NAVBAR */
 nav {
   background: #000;
   color: white;
@@ -46,17 +14,54 @@ nav {
 }
 
 nav h2 {
-  margin: 0;          /* QUAN TRỌNG */
+  margin: 0;
   font-size: 18px;
 }
 
 nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
   font-size: 14px;
 }
-nav {
-  height: 50px;       /* ép chiều cao */
+
+nav a:hover {
+  text-decoration: underline;
 }
 
-nav h2 {
-  line-height: 50px;
+.active {
+  border-bottom: 2px solid white;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 40px;
+}
+
+.hero img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* CONTENT */
+section {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background: #fafafa;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
