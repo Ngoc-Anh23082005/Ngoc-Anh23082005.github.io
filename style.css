@@ -36,3 +36,20 @@ section {
   padding: 15px;
   margin: 10px;
 }
+nav {
+  background: #000;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  margin: 0;          /* QUAN TRỌNG */
+  font-size: 18px;
+}
+
+nav a {
+  font-size: 14px;
+}
